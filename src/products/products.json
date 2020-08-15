@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Warp Core",
+    "price": 29995,
+    "image": "warp-core.png"
+  },
+  {
+    "name": "Double-Retro Laser Blammers",
+    "price": 19999,
+    "image": "double-retro-laser-blammers.png"
+  },
+  {
+    "name": "Power Crystals",
+    "price": 1999,
+    "image": "power-crystals.png"
+  },
+  {
+    "name": "Warp Core",
+    "price": 29995,
+    "image": "base-spring.png"
+  },
+  {
+    "name": "Warp Core",
+    "price": 29995,
+    "image": "base-spring.png"
+  },
+  {
+    "name": "Warp Core",
+    "price": 29995,
+    "image": "base-spring.png"
+  }
+]
