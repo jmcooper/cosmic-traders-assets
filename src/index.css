@@ -1,0 +1,120 @@
+/* Global  Styles */
+
+body {
+  margin: 0;
+  background-color: #282c34;  
+  padding:50px 100px;
+  background-color: #282c34;  
+  padding:50px 100px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+input {
+  font-size: 18px;
+  padding: 5px;
+  margin: 10px;
+}
+
+a {
+  color: #4098AF;
+}
+
+a:hover {
+  color: #5AB2C9;
+}
+
+.section-header {
+  background-color:#353941;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.button {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding:10px;
+  font-size:14px;
+  background-color: #4098AF;
+  border: 0;
+  color: #204f5c;
+  font-weight:bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #2d6f81;
+}
+
+.link-button {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  color: #4098AF;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.link-button:hover {
+  color: #5AB2C9
+}
+
+/*Outpost Styles*/
+.mainLeft {
+  flex-grow: 1;
+  min-width: 900px;
+  margin-right: 10px;
+}
+
+.rightSidebar {
+  min-width:400px;
+}
+
+/* Products Styles */
+.products {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+/* Product Styles */
+.product {
+  display: flex;
+  background-color:#353941;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 30px;
+  justify-content:space-between;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.product img {
+  width: 150px;
+} 
+
+.priceLine {
+  display: flex;
+  font-size: 22px;
+  justify-content: space-between;
+  width:100%;
+  margin:10px;
+}
+
+.price {
+  margin:0;
+}
