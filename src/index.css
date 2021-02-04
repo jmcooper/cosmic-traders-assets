@@ -1,4 +1,19 @@
-/* Global  Styles */
+@font-face {
+  font-family: 'nasalization-book';
+  src: url('fonts/nasalization-bk-webfont.woff2') format('woff2'),
+       url('fonts/nasalization-bk-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nasalization-light';
+  src: url('fonts/nasalization-lt-webfont.woff2') format('woff2'),
+       url('fonts/nasalization-lt-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 body {
   margin: 0;
@@ -6,7 +21,7 @@ body {
   padding:50px 100px;
   background-color: #282c34;  
   padding:50px 100px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: nasalization-book, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -29,35 +44,35 @@ a {
   color: #4098AF;
 }
 
-a:hover {
-  color: #5AB2C9;
-}
-
-.section-header {
+.sectionHeader {
+  
   background-color:#353941;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 10px;
+
 }
 
 .button {
   display: block;
   text-decoration: none;
   text-align: center;
-  padding:10px;
-  font-size:14px;
+  padding:15px;
+  font-size:20px;
   background-color: #4098AF;
   border: 0;
-  color: #204f5c;
+  color: white;
   font-weight:bold;
   cursor: pointer;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #44B1FF 0%, #8B29FF 100%)
 }
 
 .button:hover {
-  color: #2d6f81;
+  background-image: linear-gradient(to right, #44B1FF 0%, #5773FF 100%)
 }
 
-.link-button {
+.linkButton {
   background: none!important;
   border: none;
   padding: 0!important;
@@ -67,54 +82,6 @@ a:hover {
   font-size: 18px;
 }
 
-.link-button:hover {
+.linkButton:hover {
   color: #5AB2C9
-}
-
-/*Outpost Styles*/
-.mainLeft {
-  flex-grow: 1;
-  min-width: 900px;
-  margin-right: 10px;
-}
-
-.rightSidebar {
-  min-width:400px;
-}
-
-/* Products Styles */
-.products {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-}
-
-/* Product Styles */
-.product {
-  display: flex;
-  background-color:#353941;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px 30px;
-  justify-content:space-between;
-}
-
-.title {
-  font-size: 18px;
-}
-
-.product img {
-  width: 150px;
-} 
-
-.priceLine {
-  display: flex;
-  font-size: 22px;
-  justify-content: space-between;
-  width:100%;
-  margin:10px;
-}
-
-.price {
-  margin:0;
 }
