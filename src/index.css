@@ -85,3 +85,58 @@ a {
 .linkButton:hover {
   color: #5AB2C9
 }
+
+
+/* Outpost Styles */
+.mainLeft {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.rightSidebar {
+  width:360px;
+  margin-left: 20px;
+}
+
+/* Product List Styles */
+.products {
+  display: grid;
+  grid-gap: 40px 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+/* Product Styles */
+.productImage {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+}
+
+.productImage img {
+  width: 100%;
+} 
+
+.productDetails, .productDetails .title {
+  font-family: nasalization-light;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+.productImage .addToCart {
+  display: none;
+}
+
+.productImage:hover img {
+  opacity: .2;
+}
+
+.productImage:hover .addToCart {
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
