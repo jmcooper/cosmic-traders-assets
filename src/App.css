@@ -1,0 +1,27 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-width:1480px;
+  max-width:1680px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  color:#ccc;
+  background-color:#353941;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  color:#ccc;
+  width: 100%;
+} 
+
+.logo {
+  width: 80px;
+}
