@@ -45,12 +45,10 @@ a {
 }
 
 .sectionHeader {
-  
   background-color:#353941;
   text-align: center;
   font-size: 32px;
   padding-bottom: 10px;
-
 }
 
 .button {
@@ -117,6 +115,7 @@ a {
 
 .productImage img {
   width: 100%;
+  background-color: #1D1E25;
 } 
 
 .productDetails, .productDetails .title {
