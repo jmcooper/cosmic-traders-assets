@@ -1,32 +1,62 @@
 [
   {
-    "name": "Warp Core",
-    "price": 29995,
-    "image": "warp-core.png"
+    "name": "Warp Engine",
+    "price": 1529995,
+    "image": "warp-engine.png"
   },
   {
-    "name": "Double-Retro Laser Blammers",
-    "price": 19999,
+    "name": "Double Retro Laser Blammers",
+    "price": 129999,
     "image": "double-retro-laser-blammers.png"
   },
   {
-    "name": "Power Crystals",
-    "price": 1999,
-    "image": "power-crystals.png"
+    "name": "Cryogenic Chamber",
+    "price": 595995,
+    "image": "cryogenic-chamber.png"
   },
   {
-    "name": "Warp Core",
-    "price": 29995,
-    "image": "base-spring.png"
+    "name": "Space Helmet",
+    "price": 1275,
+    "image": "space-helmet.png"
   },
   {
-    "name": "Warp Core",
-    "price": 29995,
-    "image": "base-spring.png"
+    "name": "Teleporter",
+    "price": 655999,
+    "image": "teleporter.png"
   },
   {
-    "name": "Warp Core",
+    "name": "Targeting Viewport",
     "price": 29995,
-    "image": "base-spring.png"
+    "image": "targeting-viewport.png"
+  },
+  {
+    "name": "Tractor Beam",
+    "price": 345990,
+    "image": "tractor-beam.png"
+  },
+  {
+    "name": "Radar Array",
+    "price": 220995,
+    "image": "radar-array.png"
+  },
+  {
+    "name": "Jetpack",
+    "price": 12995,
+    "image": "jetpack.png"
+  },
+  {
+    "name": "Universal Translator",
+    "price": 9895,
+    "image": "universal-translator.png"
+  },
+  {
+    "name": "Booster Rocket",
+    "price": 129980,
+    "image": "booster-rocket.png"
+  },
+  {
+    "name": "Shield Generator",
+    "price": 485700,
+    "image": "shield-generator.png"
   }
 ]
