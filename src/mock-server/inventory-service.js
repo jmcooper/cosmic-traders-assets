@@ -5,6 +5,8 @@ function subscribeToInventoryUpdates(product, callbackFunction) {
     products[product.name].subscriptions.push(callbackFunction)
   else
     products[product.name] = {inventory: getRandomInt(15), subscriptions: [callbackFunction]}
+  
+    callbackFunction.call(null, products[product.name].inventory)
 }
 
 function unsubscribe(product) {
